@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <title>اخبار</title>
+ <style>
+  body {
+   margin: 0;
+   padding: 0;
+   background-color: #f2f2f2;
+   font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+   text-align: center;
+   margin-top: 50px;
+   color: #333;
+  }
+  
+  .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+  }
+  
+  .box {
+   width: calc(50% - 20px);
+   background-color: #fff;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+   margin-bottom: 40px;
+   padding: 20px;
+   box-sizing: border-box;
+  }
+  
+  .box img {
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+  }
+  
+  .box h2 {
+   margin: 0;
+   color: #333;
+   font-size: 20px;
+  }
+  
+  .box p {
+   margin-top: 10px;
+   line-height: 1.4;
+   color: #666;
+  }
+ </style>
+</head>
+<body>
+ <h1>اخبار</h1>
+ <div class="container">
+  <div class="box">
+   <img src="kl.jpg" alt="تصویر 1">
+   <p>سومین مدرسه دانشجویی ریاضیات و کاربردها</p>
+<br>
+   <p>دانشگاه تحصیلات تکمیلی علوم پایه زنجان</p>
+<br>
+<p>(ویژه دانشجویان کارشناسی)</p>
+<br>
+<br>
+<p>محور های سخنرانی:</p>
+<br>
+<p>کاربرد ریاضیات در علوم مهندسی و علم داده</p>
+<br>
+<p>با سخنرانی دکتر محمد شهریاری عضو هیئت علمی دانشگاه مراغه</p>
+<br>
+<br>
+<p>:کسب اطلاعات بیشتر</p>
+<br>
+<br>
+<a href="https://iasbs.ac.ir/~mathschool/index.html" target="_blank">https://iasbs.ac.ir/~mathschool/index.html</a>
+<br>
+<br>
+<p>۲۰تا۲۲اردیبهشت۱۴۰۲</p>
+<br>
+<p>#انجمن_علمی_ریاضی</p>
+<br>
+<p>#دانشگاه_مراغه</p>
+  </div>
+  
+  <div class="box">
+   <img src="lh.jpg" alt="تصویر 2">
+   <h2>توضیحات عکس 2</h2>
+   <p>توضیحات بیشتر در مورد عکس 2.</p>
+  </div>
+  
+  <div class="box">
+   <img src="fp.jpg" alt="تصویر 3">
+   <h2>توضیحات عکس 3</h2>
+   <p>توضیحات بیشتر در مورد عکس 3.</p>
+  </div>
+  
+  <div class="box">
+   <img src="po.jpg" alt="تصویر 4">
+   <h2>توضیحات عکس 4</h2>
+   <p>توضیحات بیشتر در مورد عکس 4.</p>
+  </div>
+ </div>
+</body>
+</html>

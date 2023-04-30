@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src="script.js"></script>
+ <title>Contact us page</title>
+<style type="text/css">
+  .comments-section {
+    max-width: 700px;
+    margin: auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .comments-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .comments-section form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .comments-section .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+
+  .comments-section label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #777777;
+  }
+
+  .comments-section input[type="text"],
+  .comments-section input[type="email"],
+  .comments-section textarea {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+    outline: none;
+    resize: none;
+  }
+
+  .comments-section input[type="text"]:focus,
+  .comments-section input[type="email"]:focus,
+  .comments-section textarea:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .comments-section button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .comments-section button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+
+  .comments-section #comments-list {
+    margin-top: 25px;
+    border-top: 1px solid #eeeeee;
+    padding-top: 25px;
+  }
+
+  .comments-section #comments-list p {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .comments-section #comments-list strong {
+    color: #007bff;
+  }
+ </style>
+</head>
+<body>
+ <h1 style="text-align:center;">Contact us</h1>
+ <hr>
+ 
+<div class="comments-section">
+  <h2>Comments</h2>
+  <form id="comment-form" onsubmit="addComment(); return false;">
+    <div class="form-group">
+      <label for="name">name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" rows="4" cols="50" required></textarea>
+    </div>
+    <button type="submit">submit</button>
+  </form>
+  <div id="comments-list">
+    <p><strong>Username 1:</strong> Username
+    
+ 
+ <br>
+ <hr>
+ 
+ <div style="background-color:black; color:white; padding:20px;">
+  <p style="text-align:center;">Instagram ID: <a href="https://www.instagram.com/math_maraghe">@math_maraghe</a></p>
+<p style="text-align:center;">Telegram channel address: <a href="https://t.me/math_maragheh">t.me/math_maragheh</a></p>
+  <center><img src="Untitled.jpg" alt="my picture"></center>
+ </div>
+</body>
+</html>

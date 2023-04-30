@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <title>عضویت در انجمن</title>
+ <style type="text/css">
+  form {
+   display:block;
+   margin-top:50px;
+   text-align:center;
+  }
+  
+  input[type=text], input[type=number] {
+   padding:10px;
+   margin:5px;
+   border-radius:5px;
+   border:none;
+   box-shadow:0px 0px 5px rgba(0,0,0,0.3);
+  }
+  
+  input[type=submit] {
+   padding:10px;
+   border-radius:5px;
+   border:none;
+   background-color:#4CAF50;
+   color:white;
+   cursor:pointer;
+  }
+  
+  .error {
+   color:red;
+   font-weight:bold;
+   margin-top:20px;
+  }
+
+  .success{
+   color:green;
+   font-weight:bold;
+   margin-top:20px;
+  }
+ </style>
+</head>
+<body>
+ <h1 style="text-align:center;">عضویت در انجمن</h1>
+ <hr>
+ 
+ <form id="sign-up-form">
+  <label>نام و نام خانوادگی:</label><br>
+  <input type="text" id="name" name="name" required><br>
+  
+  <label>کد ملی:</label><br>
+  <input type="text" id="national-code" name="national-code" required><br>
+  
+  <label>شماره دانشجویی:</label><br>
+  <input type="number" id="student-id" name="student-id" required><br>
+  
+  <label>رشته:</label><br>
+  <input type="text" id="field" name="field" required><br>
+  
+  <label>ورودی سال:</label><br>
+  <input type="number" id="entrance-year" name="entrance-year" required><br>
+  
+  <input type="submit" value="ثبت نام">
+    </form>
+    
+    <p id="result" class=""></p>
+
+ <script type="text/javascript">
+        document.getElementById("sign-up-form").addEventListener('submit', function(event) {
+            event.preventDefault();
+            var entranceYear = document.getElementById("entrance-year").value;
+            var field = document.getElementById("field").value;
+            var allowedFields = ["ریاضی", "فیزیک", "شیمی"];
+            
+            if (entranceYear >= 1398 && entranceYear <= 1401 && allowedFields.includes(field)) {
+                document.getElementById("result").innerHTML = "ثبت نام شما با موفقیت انجام شد. <a href='https://t.me/+RbKl9wPM48IyODM0'>لینک گروه تلگرامی</a>";
+                document.getElementById("result").style.color = "green";
+            } else {
+                document.getElementById("result").innerHTML = "شرایط شما برای ثبت نام نیست.";
+                document.getElementById("result").style.color = "red";
+            }
+        });
+ </script>
+</body>
+</html>

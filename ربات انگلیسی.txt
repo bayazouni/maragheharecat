@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <title>Telegram robot calculates the area of the globe</title>
+ <style>
+  body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  h1, p {
+   text-align: center;
+  }
+
+  img, video {
+   max-width: 100%;
+  }
+  
+  .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-top: 50px;
+   width: 90%;
+   max-width: 1200px;
+  }
+
+  .info {
+   width: 45%;
+   margin-right: 20px;
+  }
+
+  .video-container {
+   width: 45%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+  }
+ </style>
+</head>
+<body>
+ <h1>Telegram robot calculates the area of the globe</h1>
+ <hr>
+ <div class="container">
+  <div class="info">
+   <p>This Telegram bot that we launched using the Python programming language and through the pip install pyTelegramBotAPI library is a Telegram bot that solves the area of the sphere with the original formula and the new formula that we found, and if you work with the bot yourself You can see that the answer to the area of the sphere you are looking for is the same in both formulas, and here you can see the video of the robot's performance:</p>
+    <p>In this video, you can see that the answer is the same in both formulas, so that you can see the operation of the robot yourself, I will put the robot's ID, this is the robot's ID: @Bbbbooott2023_bot></p>
+   <p>The robot may not be running, but we will officially activate this robot on May 12, 1402 at 7:00 for half an hour, after that the robot will stop. You can clearly see the performance of the robot on this date.</p>
+  </div>
+  <div class="video-container">
+   <video src="30.mp4" controls></video>
+  </div>
+ </div>
+</body>
+</html>
+
+

@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <title>News</title>
+ <style>
+  body {
+   margin: 0;
+   padding: 0;
+   background-color: #f2f2f2;
+   font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+   text-align: center;
+   margin-top: 50px;
+   color: #333;
+  }
+  
+  .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+  }
+  
+  .box {
+   width: calc(50% - 20px);
+   background-color: #fff;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+   margin-bottom: 40px;
+   padding: 20px;
+   box-sizing: border-box;
+  }
+  
+  .box img {
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+  }
+  
+  .box h2 {
+   margin: 0;
+   color: #333;
+   font-size: 20px;
+  }
+  
+  .box p {
+   margin-top: 10px;
+   line-height: 1.4;
+   color: #666;
+  }
+ </style>
+</head>
+<body>
+ <h1>News</h1>
+ <div class="container">
+  <div class="box">
+   <img src="kl.jpg" alt="تصویر 1">
+   <p>Third Student School of Mathematics and Applications</p>
+<br>
+   <p>Zanjan Graduate University of Basic Sciences</p>
+<br>
+<p>(special for undergraduate students)</p>
+<br>
+<br>
+<p>Key points of the speech:</p>
+<br>
+<p>Application of mathematics in engineering sciences and data science</p>
+<br>
+<p>With the speech of Dr. Mohammad Shahriari, a member of the faculty of Maragheh University</p>
+<br>
+<br>
+<p>:get more information</p>
+<br>
+<br>
+<a href="https://iasbs.ac.ir/~mathschool/index.html" target="_blank">https://iasbs.ac.ir/~mathschool/index.html</a>
+<br>
+<br>
+<p>May 20 to 22, 1402</p>
+<br>
+<p>#Mathematical_Scientific_Association</p>
+<br>
+<p>#Maragheh_University</p>
+  </div>
+  
+  <div class="box">
+   <img src="lh.jpg" alt="تصویر 2">
+   <p>Maragheh University Mathematical Scientific Association organizes:</p>
+<br>
+<br>
+<p>((Persian training workshop))</p>
+<br>
+<p>What you will learn in this workshop:</p>
+<br>
+<br>
+<p>• Installation and commissioning of Zee Parshin</p>
+<br>
+<p>• Basic details and concepts in the program</p>
+<br>
+<p>•Advanced formulation</p>
+<br>
+<p>• Commands and how to work Zi Parshin package</p>
+<br>
+<p>• How to write a thesis with Z Persian</p>
+<br>
+<p>•Thesis format conforms to university standards</p>
+<br>
+<br>
+<p>Lecturer: Dr. Mohammad Shahriari and Engineer Parvin Naghizadeh</p>
+<br>
+<p>Classes start on Saturday, May 9, from 11:30 to 13:00</p>
+<br>
+<p>in 8 sessions</p>
+<br>
+<p>Registration fee: 80 thousand tomans</p>
+<br>
+<p>Along with providing a certificate</p>
+<br>
+<p>Note that the capacity of the classes is very limited.</p>
+<br>
+<p>To register, send a message to the following number:</p>
+<br>
+<p>09045160794</p>
+  </div>
+  
+  <div class="box">
+   <img src="fp.jpg" alt="تصویر 3">
+   <p>It is organized by the Mathematics Student Scientific Association in cooperation with the Chemistry Student Scientific Association</p>
+<br>
+   <p>((integral training workshop))</p>
+<br>
+<p>Indefinite and Definite Integral Training Course and Application of Integral in Chemistry</p>
+<br>
+<p>Lecturer: Dr. Mohammad Shahriari (mathematics doctorate and member of Maragheh University faculty)</p>
+<br>
+<p>Classes start from May 10</p>
+<br>
+<p>Time: Sundays and Tuesdays from 11:30 to 13:00</p>
+<br>
+<br>
+<p>Registration fee: 80 thousand tomans</p>
+<br>
+<p>Along with providing a certificate</p>
+<br>
+<p>20% special discount for people who register early.</p>
+<br>
+<p>To register, send a message to the following number or ID in Telegram:</p>
+<br>
+<p>:09045160794</p>
+<br>
+<p>:@Adlvandy</p>
+  </div>
+  
+  <div class="box">
+   <img src="po.jpg" alt="تصویر 4">
+   <p>Chemistry Student Scientific Association in collaboration with Mathematics Student Scientific Association organizes:</p>
+<br>
+   <p>Practical workshop of Excel software</p>
+<br>
+<p>What you will learn in this workshop:</p>
+<br>
+<br>
+<p>•Introduction and acquaintance with the software</p>
+<br>
+<p>•Basic and basic points of the software</p>
+<br>
+<p>• Creating tables and all kinds of charts</p>
+<br>
+<p>•Performing chemical, mathematical, statistical calculations, etc.</p>
+<br>
+<p>• Change variables</p>
+<br>
+<p>•create database</p>
+<br>
+<br>
+<p>Lecturer: Dr. Armen Avans (Doctor of Analytical Chemistry and Faculty Member of Maragheh University)</p>
+<br>
+<p>Classes start on Wednesday, April 30, from 11:30 to 13:00</p>
+<br>
+<p>In 5 sessions</p>
+<br>
+<p>Registration fee: 80 thousand tomans</p>
+<br>
+<p>Along with providing a certificate</p>
+<br>
+<p>To register, send a message to the following number or ID in Telegram:</p>
+<br>
+<p>:09385302992</p>
+<br>
+<p>@sahbajabbari</p>
+  </div>
+ </div>
+</body>
+</html>
